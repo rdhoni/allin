@@ -3,7 +3,7 @@
  List Trik and Tips
  
  - [Editor Home Termux](#LiveTermux)
-
+ - [Install Composer](#composer)
 
 
 
@@ -64,7 +64,7 @@ echo "extra-keys = [ \ ['ESC','|','/','HOME','UP','END','PGUP','DEL'], \ ['TAB',
 
 ````
 
-## Install Composer
+## [Install Composer](#composer)
 
 ````
  /// install php
