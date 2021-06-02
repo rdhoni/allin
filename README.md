@@ -1,7 +1,15 @@
 # allin
 
+ List Trik and Tips
+ 
+ - [Editor Home Termux](#LiveTermux)
 
-## Live Editor Home Termux
+
+
+
+
+
+## [Live Editor Home Termux](#LiveTermux)
 
 step first install termux-service 
 ````
