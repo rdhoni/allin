@@ -13,7 +13,7 @@ second step to running FTP
  $ sv-enable ftpd
  $ sv up ftpd
 ````
-now open Acode apk
+now open [Acode apk](https://play.google.com/store/apps/details?id=com.foxdebug.acodefree)
 ````
  /// add new FTP
  name            : Termux
@@ -56,7 +56,19 @@ echo "extra-keys = [ \ ['ESC','|','/','HOME','UP','END','PGUP','DEL'], \ ['TAB',
 
 ````
 
+## Install Composer
 
+````
+ /// install php
+ $ pkg install php
+
+ /// install composer
+ $ curl -sS https://getcomposer.org/installer | php -- --install-dir=/data/data/com.termux/files/usr/bin --filename=composer
+ 
+ /// check versi composer
+ $ composer -V
+
+````
 
 
 
