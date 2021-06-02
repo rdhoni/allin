@@ -3,8 +3,11 @@
  List Trik and Tips
  
  - [Editor Home Termux](#LiveTermux)
+ - [Button Termux](#button)
+ - [Oh-My-Zsh](#ohmyzsh)
+ - [Powerlevel10k](#powerlevel)
  - [Install Composer](#composer)
-
+ - [Downgrade PHP](#php)
 
 
 
@@ -35,20 +38,20 @@ now open [Acode apk](https://play.google.com/store/apps/details?id=com.foxdebug.
 ````
 if after running ftp connect close, you repeat this step ` $ sv up ftpd `
 
-## brings up a lot of buttons
+## [Brings up a lot of buttons](#button)
 
 for the up, down, right, left arrows. and others
 ````
 echo "extra-keys = [ \ ['ESC','|','/','HOME','UP','END','PGUP','DEL'], \ ['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN','BKSP'] \ ]" > /data/data/com.termux/files/home/.termux/termux.properties
 ````
 
-## Oh-My-Zsh Theme
+## [Oh-My-Zsh Theme](#ohmyzsh)
 
 ````
  $ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ````
 
-## Powerlevel10k Theme
+## [Powerlevel10k Theme](#powerlevel)
 
 ````
  /// fist step 
@@ -78,5 +81,7 @@ echo "extra-keys = [ \ ['ESC','|','/','HOME','UP','END','PGUP','DEL'], \ ['TAB',
 
 ````
 
+## [Downgrade PHP](#php)
 
+[Downgrade PHP - github](https://github.com/rdhoni/php7)
 
