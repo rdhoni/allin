@@ -85,3 +85,17 @@ echo "extra-keys = [ \ ['ESC','|','/','HOME','UP','END','PGUP','DEL'], \ ['TAB',
 
 [Downgrade PHP - github](https://github.com/rdhoni/php7)
 
+
+## Issue error Termux 
+
+#### N: Possible cause: repository is under maintenance or down (wrong sources.list URL?).
+ 
+ ````
+ pkg remove game-repo
+
+pkg remove science-repo
+
+pkg update 
+
+````
+
